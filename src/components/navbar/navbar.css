@@ -1,0 +1,58 @@
+.navItem {
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navItem .avatar {
+    width: 40px;
+    margin-left: 30px;
+    margin-right: 8px;
+  }
+  .modalStyle2 .ant-modal-header {
+    border-radius: 20px 20px 0 0;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .add_prod_title {
+      font-size: 30px;
+    }
+  }
+  .form-container {
+    width: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .add_prod_title {
+      font-size: 30px;
+    }
+    input {
+      display: block;
+      margin-top: 20px;
+      font-size: 15px;
+      padding: 10px;
+      width: 100%;
+    }
+    .add-prod-button {
+      padding: 10px;
+      font-size: 12px;
+      margin-top: 25px;
+      border: none;
+      background-color: #232f3e;
+      border: 2px solid #232f3e;
+  
+      color: #f2f2f2;
+      font-size: 15px;
+      width: 100%;
+      transition: all 0.4s;
+    }
+    .add-prod-button:hover {
+      background-color: #f2f2f2;
+      color: #232f3e;
+    }
+  }
+  
